@@ -1,0 +1,229 @@
+/* 主题内容开始 */
+
+.banner_bg {
+	width: 100%;
+	height: 482px;
+	/* 该元素不占位置 */
+	position: absolute;
+	/* background-color: #ccc; */
+}
+
+.banner_bg a {
+	width: 100%;
+	height: 482px;
+	display: block;
+	background: url(../images/banner_bg.png) no-repeat top center;
+
+}
+
+/* 主题广告 */
+.main_banner {
+	height: 482px;
+	/* background-color: pink; */
+	position: relative;
+	z-index: 3;
+}
+
+.l_banner {
+	float: left;
+	width: 190px;
+	height: 467px;
+	background-color: #6E6568;
+	padding-top: 15px;
+
+}
+
+.l_banner  li {
+	padding-left: 13px;
+	height: 30px;
+	line-height: 30px;
+
+}
+
+.l_banner li:hover {
+	background-color: #C0C0C0;
+}
+
+.l_banner  li  a {
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.l_banner  li  a:hover {
+	color: red;
+}
+
+
+.m_banner {
+	float: left;
+	margin-left: 10px;
+	width: 790px;
+	height: 482px;
+}
+
+.top_banner {
+	position: relative;
+}
+
+.pages a {
+	display: block;
+	width: 30px;
+	height: 60px;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	top: 135px;
+
+}
+
+
+.l_page {
+	left: 0;
+}
+
+.r_page {
+	right: 0;
+}
+
+.pages a:hover {
+	background-color: rgba(0,0,0,.7);
+}
+
+.numbers {
+	width: 182px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -91px;
+	bottom: 15px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 8px;
+}
+.numbers li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 6px;
+	margin-top: 4px;
+	margin-left: 9px; 
+}
+
+.numbers li:nth-child(2) {
+	background-color: red;
+}
+
+
+.bot_banner {
+	margin-top: 10px;
+}
+
+.bot_banner a {
+	float: right;
+}
+
+.bot_banner a:first-child {
+	float: left;
+}
+
+
+
+.r_banner {
+	float: right;
+	width: 190px;
+	height: 482px;
+	background-color: #fff;
+}
+
+.r_top_banner {
+	height: 115px;
+	border: 1px solid #ccc;
+}
+
+.r_top_banner .top_user {
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.r_top_banner .top_user img {
+	width: 45px;
+	height: 45px;
+	border-radius: 25px;
+}
+
+.r_top_banner .top_user a {
+	float: left;
+}
+
+.r_top_banner  .userinfo {
+	float: left;
+	margin-left: 15px;
+	line-height: 20px;
+}
+
+.r_top_banner .userinfo a {
+	margin-right: 5px;
+}
+.bot_btns {
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.bot_btns a {
+	width: 70px;
+	height: 20px;
+	display: inline-block;
+	border: 2px solid red;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 10px;
+}
+
+.bot_btns a:hover {
+	background-color: red;
+	color: #ccc;
+}
+
+.r_mid_banner {
+	height: 154px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.r_bot_banner {
+	overflow: hidden;
+}
+
+.r_bot_banner li {
+	float: left;
+	width: 47px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom:  1px solid #ccc;
+	text-align: center;
+}
+
+.r_bot_banner ul {
+	width: 200px;
+}
+
+.r_bot_banner li a {
+	width: 47px;
+	display: block;
+	padding-top: 46px;
+	position: relative;
+
+}
+
+.r_bot_banner li a i {
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(../images/sprite_fs@1x.png) no-repeat;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
